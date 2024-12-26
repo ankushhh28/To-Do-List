@@ -37,8 +37,10 @@ function addtasks(){
     }
 }
 
+// add task on click at add-task button
 addbtn.addEventListener("click", addtasks);
 
+//add task on enter
 inp.addEventListener("keypress", function (event) {
     // console.dir(event);
     if (event.key === "Enter") {
